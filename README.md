@@ -1,6 +1,8 @@
-Code Snippet Extractor
+Chat GPT Link Scrapper
 
-This script extracts code snippets from a chat GPT HTML file based on specified start and end terms.
+This script extracts code snippets from a chat GPT Link based on specified start and end terms.
+I've created this for my own requirements. Feel free to branch out.
+
 Prerequisites
 
     Python 3.x
@@ -35,3 +37,7 @@ The path to the generated code snippet file will be displayed in the terminal up
 Cleanup
 
 The script will automatically remove any temporary files generated during the extraction process.
+
+Tips on preparing the Chat GPT Link.
+Make sure you entered specific random terms in between chat to identify code snippets separately. i.e "##srat1##", "##end1##" and so.
+Example char link: https://chat.openai.com/share/92890f7f-d440-4ada-8e9b-e744927b1937
