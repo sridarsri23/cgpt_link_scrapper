@@ -3,6 +3,11 @@ from bs4 import BeautifulSoup
 import re
 import os
 
+"""
+Code Snippet Extractor
+Author: Sridar Sri
+License : GNPL v3
+"""
 # Default values
 default_dir = "output"
 default_subdir = "code_snippets"
